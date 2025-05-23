@@ -5,11 +5,13 @@ body{
 
 header{
 	text-align: center;
-	background-color: #9BABBB;
+	background-color: #4A397F;
+	color: #F9B16C;
 }
 
 h1{
 	margin-top:0px;
+	color: #FDC060;
 }
 
 .destaques{
@@ -18,5 +20,6 @@ h1{
 
 .banner_destaques{
 	text-align: center;
-	background-color: #A098B7;
+	background-color: #352864;
+	color: #FCE4D4;
 }
