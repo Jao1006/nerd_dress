@@ -1,25 +1,90 @@
 body{
-	background-color: #fdfdfd;
+	background-color: #FFFBF5;
 	margin:0px;
 }
 
 header{
 	text-align: center;
-	background-color: #4A397F;
-	color: #F9B16C;
+	background-color: #3A1078;
+	color: #f1883b;
 }
 
 h1{
 	margin-top:0px;
-	color: #FDC060;
+	margin-bottom: 2px;
+	color: #fadb20;
 }
 
 .destaques{
-	font-size: 20px
+	font-size: 20px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .banner_destaques{
+	height: 88px;
 	text-align: center;
-	background-color: #352864;
-	color: #FCE4D4;
+	background-color: #49108B;
+	color: white;
+}
+
+.banner_destaques p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+p{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content{
+	margin-left: 22px;
+	margin-right: 22px;
+	margin-top: 2%;
+	height: 280px;
+}
+
+.products{
+	margin: 18px;
+	justify-content: space-around;
+	background-color: #FAF1E6;
+	display: flex;
+	overflow: hidden;
+	height: 369px;
+}
+
+.product {
+    width: 220px; /* Define um tamanho fixo */
+    height: 272px; /* Aumenta um pouco para acomodar o texto */
+    background-color: white;
+    display: flex;
+    flex-direction: column; /* Organiza os elementos em coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza o conteúdo */
+    border: 4px solid #ffffff;
+    padding: 10px;
+	flex-direction: column;
+	position: relative;
+	border-radius: 0.8rem;
+	box-shadow: 0px 0px 12px;
+	transition: transform 0.3s ease-in-out;
+}
+
+.product:hover{
+	transform: scale(1.05); /* Aumenta o tamanho em 20% */
+}
+
+.products img {
+	border-radius: 8px;
+    max-width: 90%; /* Ajusta o tamanho relativo à div */
+    max-height: 80%; /* Mantém proporção sem ultrapassar limites */
+    object-fit: contain; /* Garante que a imagem não ultrapasse os limites */
+}
+
+.description {
+	display: flex;
+	flex-direction: column;
+	height: inherit;
+	justify-content: space-between;
+	margin-bottom: 0;
+	text-align: center;
 }
