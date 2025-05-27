@@ -40,10 +40,11 @@ p{
 	margin-left: 22px;
 	margin-right: 22px;
 	margin-top: 2%;
-	height: 280px;
+	height: 314px;
 }
 
 .products{
+	align-items: center;
 	margin: 18px;
 	justify-content: space-around;
 	background-color: #FAF1E6;
@@ -53,13 +54,13 @@ p{
 }
 
 .product {
-    width: 220px; /* Define um tamanho fixo */
-    height: 272px; /* Aumenta um pouco para acomodar o texto */
+    width: 220px;
+    height: 272px; 
     background-color: white;
     display: flex;
-    flex-direction: column; /* Organiza os elementos em coluna */
-    align-items: center; /* Centraliza os itens horizontalmente */
-    justify-content: center; /* Centraliza o conteúdo */
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
     border: 4px solid #ffffff;
     padding: 10px;
 	flex-direction: column;
@@ -70,14 +71,16 @@ p{
 }
 
 .product:hover{
-	transform: scale(1.05); /* Aumenta o tamanho em 20% */
+	transform: scale(1.05); 
 }
 
 .products img {
 	border-radius: 8px;
-    max-width: 90%; /* Ajusta o tamanho relativo à div */
-    max-height: 80%; /* Mantém proporção sem ultrapassar limites */
-    object-fit: contain; /* Garante que a imagem não ultrapasse os limites */
+    max-width: 90%; 
+    max-height: 80%;
+	width: 200px;
+	height: 200px;
+    object-fit: contain; 
 }
 
 .description {
@@ -85,6 +88,9 @@ p{
 	flex-direction: column;
 	height: inherit;
 	justify-content: space-between;
-	margin-bottom: 0;
+	margin-top: 6px;
+	margin-bottom: 0px;
+	margin-left: 12px;
+	margin-right: 11px;
 	text-align: center;
 }
