@@ -1,0 +1,96 @@
+body{
+	background-color: #FFFBF5;
+	margin:0px;
+}
+
+header{
+	text-align: center;
+	background-color: #3A1078;
+	color: #f1883b;
+}
+
+h1{
+	margin-top:0px;
+	margin-bottom: 2px;
+	color: #fadb20;
+}
+
+.destaques{
+	font-size: 20px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banner_destaques{
+	height: 88px;
+	text-align: center;
+	background-color: #49108B;
+	color: white;
+}
+
+.banner_destaques p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+p{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content{
+	margin-left: 22px;
+	margin-right: 22px;
+	margin-top: 2%;
+	height: 314px;
+}
+
+.products{
+	align-items: center;
+	margin: 18px;
+	justify-content: space-around;
+	background-color: #FAF1E6;
+	display: flex;
+	overflow: hidden;
+	height: 369px;
+}
+
+.product {
+    width: 220px;
+    height: 272px; 
+    background-color: white;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    border: 4px solid #ffffff;
+    padding: 10px;
+	flex-direction: column;
+	position: relative;
+	border-radius: 0.8rem;
+	box-shadow: 0px 0px 12px;
+	transition: transform 0.3s ease-in-out;
+}
+
+.product:hover{
+	transform: scale(1.05); 
+}
+
+.products img {
+	border-radius: 8px;
+    max-width: 90%; 
+    max-height: 80%;
+	width: 200px;
+	height: 200px;
+    object-fit: contain; 
+}
+
+.description {
+	display: flex;
+	flex-direction: column;
+	height: inherit;
+	justify-content: space-between;
+	margin-top: 6px;
+	margin-bottom: 0px;
+	margin-left: 12px;
+	margin-right: 11px;
+	text-align: center;
+}
